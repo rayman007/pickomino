@@ -1,13 +1,86 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.player {
+  float: left;
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid black
 }
+
+.player_active {
+  border: 1px solid red
+}
+
+.domino {
+  width: 68px;
+  height: 136px;
+  background: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.domino_selectable {
+  background: red;
+}
+
+.dice_container {
+  border: 1px solid black;
+}
+
+.dice {
+  background: url("./img/dices_white_tiles.png") 0 0;
+  height: 68px;
+  padding: 0px;
+  text-align: center;
+  width: 68px;
+  margin: 3px;
+  border: none;
+}
+
+.dice_selected {
+  background: url("./img/dices_red_tiles.png") 0 0;
+}
+
+.dice_not_selectable {
+  background: url("./img/dices_gray_tiles.png") 0 0;
+}
+
+.dice1 {
+  background-position: 0px 0px;
+}
+.dice2 {
+  background-position: 0px -70px;
+}
+.dice3 {
+  background-position: 0px -140px;
+}
+
+.dice4 {
+  background-position: -70px 0px;
+}
+.dice5 {
+  background-position: -70px -70px;
+}
+.dice6 {
+  background-position: -70px -140px;
+}
+
+
+
+.dice_container {
+  margin: 5px;
+  height: 80px;
+}
+
+button {
+  margin: 5px
+}
+
+  
